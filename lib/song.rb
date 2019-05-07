@@ -8,7 +8,6 @@ class Song
 
   @@songs = []
   extend Memorable
-  #include Memorable
 
   def initialize
     @@songs << self
